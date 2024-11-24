@@ -1,0 +1,416 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hotel Luxerto - Experience luxury and comfort at its finest. Book your perfect stay today.">
+    <title>Hotel Luxerto - Luxury Stay Experience</title>
+    <!-- CSS Links -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="brand-latter">L</span>
+                <div class="brand-text">Hotel <br> Luxerto</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rooms">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link book-now-btn ms-lg-3" href="#booking">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <p class="about-tag">Welcome to Luxury</p>
+                <h1 class="hero-title">The Perfect <br>Base For You</h1>
+                <p class="hero-description mb-4">Experience unparalleled luxury and comfort in the heart of the city</p>
+                <button class="btn tour-btn text-white">Take a Tour</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking-section">
+        <div class="booking-form">
+            <div class="row align-items-end">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label class="form-label">Arrival Date</label>
+                        <input type="date" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label class="form-label">Departure Date</label>
+                        <input type="date" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label class="form-label">Guests</label>
+                        <input type="number" min="1" max="10" class="form-control" placeholder="Number of guests" required>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <button class="check-btn">Check Availability</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="icon-circle">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="card-title">Expert Team</h3>
+                        <p class="card-text">Our dedicated staff ensures your perfect stay with exceptional service</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/about-2.jpg" alt="Luxury Hotel View" class="about-image">
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card dark">
+                        <div class="icon-circle">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <h3 class="card-title">Luxury Rooms</h3>
+                        <p class="card-text">Experience unrivaled luxury in our expertly designed accommodations</p>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-4">
+                    <p class="about-tag">ABOUT US</p>
+                    <h2 class="about-title">Discover Our Legacy</h2>
+                    <p class="about-description">
+                        Welcome to Hotel Luxerto, where luxury meets comfort in perfect harmony. Our establishment 
+                        has been setting the standard for exceptional hospitality since 1995, offering guests an 
+                        unforgettable experience in the heart of the city. Every detail is meticulously crafted 
+                        to ensure your absolute comfort and satisfaction.
+                    </p>
+                    <a href="#rooms" class="book-btn">Explore Rooms</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Premium Services</h2>
+                <p class="text-muted">Experience luxury and comfort with our exceptional services</p>
+            </div>
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-wifi"></i>
+                        </div>
+                        <h3 class="service-title">High Speed WiFi</h3>
+                        <p class="service-description">Stay connected with complimentary high-speed internet access throughout the property.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-water"></i>
+                        </div>
+                        <h3 class="service-title">Spa & Wellness</h3>
+                        <p class="service-description">Rejuvenate your body and mind with our premium spa services and wellness center.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-cup-hot"></i>
+                        </div>
+                        <h3 class="service-title">Fine Dining</h3>
+                        <p class="service-description">Savor exquisite cuisine prepared by our world-class chefs in our restaurants.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Luxury Accommodations</h2>
+                <p class="text-muted">Choose from our carefully curated selection of premium rooms</p>
+            </div>
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <div class="room-card">
+                        <div class="room-img">
+                            <img src="assets/room-1.jpg" alt="Deluxe Room" class="img-fluid">
+                            <div class="room-price">From $299/night</div>
+                        </div>
+                        <div class="room-content">
+                            <h3>Deluxe Room</h3>
+                            <div class="room-features">
+                                <span><i class="bi bi-people"></i> 2 Adults</span>
+                                <span><i class="bi bi-arrows-fullscreen"></i> 35m²</span>
+                                <span><i class="bi bi-eye"></i> City View</span>
+                            </div>
+                            <p>Luxurious room featuring modern amenities and stunning city views.</p>
+                            <a href="#booking" class="btn btn-outline-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="room-card">
+                        <div class="room-img">
+                            <img src="assets//room-3.jpg" alt="Executive Suite" class="img-fluid">
+                            <div class="room-price">From $499/night</div>
+                        </div>
+                        <div class="room-content">
+                            <h3>Executive Suite</h3>
+                            <div class="room-features">
+                                <span><i class="bi bi-people"></i> 3 Adults</span>
+                                <span><i class="bi bi-arrows-fullscreen"></i> 55m²</span>
+                                <span><i class="bi bi-eye"></i> Ocean View</span>
+                            </div>
+                            <p>Spacious suite with separate living area and premium amenities.</p>
+                            <a href="#booking" class="btn btn-outline-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="room-card">
+                        <div class="room-img">
+                            <img src="assets/room-3.jpg" alt="Presidential Suite" class="img-fluid">
+                            <div class="room-price">From $899/night</div>
+                        </div>
+                        <div class="room-content">
+                            <h3>Presidential Suite</h3>
+                            <div class="room-features">
+                                <span><i class="bi bi-people"></i> 4 Adults</span>
+                                <span><i class="bi bi-arrows-fullscreen"></i> 95m²</span>
+                                <span><i class="bi bi-eye"></i> Panoramic View</span>
+                            </div>
+                            <p>Ultimate luxury with panoramic views and personal butler service.</p>
+                            <a href="#booking" class="btn btn-outline-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Gallery</h2>
+                <p class="text-muted">Take a visual tour of our beautiful property</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="assets/menu-1.jpg" alt="Hotel Exterior" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="assets/menu-2.jpg" alt="Luxury Suite" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="assets/menu-9.jpg" alt="Restaurant" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="gallery-item">
+                        <img src="assets/news-1.jpg" alt="Swimming Pool" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="gallery-item">
+                        <img src="assets/news-2.jpg" alt="Spa" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get in Touch</h2>
+                <p class="text-muted">We're here to help and answer any questions you might have</p>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <div>
+                                <h5>Location</h5>
+                                <p>123 Luxury Avenue, Beverly Hills, CA 90210</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-telephone"></i>
+                            <div>
+                                <h5>Call Us</h5>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-envelope"></i>
+                            <div>
+                                <h5>Email Us</h5>
+                                <p>info@luxertohotel.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-clock"></i>
+                            <div>
+                                <h5>Open Hours</h5>
+                                <p>24/7 - Always at Your Service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <h3>Hotel Luxerto</h3>
+                    </div>
+                    <p class="footer-text">Experience unparalleled luxury and comfort at Hotel Luxerto. Where every stay becomes an unforgettable memory.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#rooms">Rooms & Suites</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="footer-title">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Spa & Wellness</a></li>
+                        <li><a href="#">Restaurant</a></li>
+                        <li><a href="#">Fitness Center</a></li>
+                        <li><a href="#">Swimming Pool</a></li>
+                        <li><a href="#">Conference Room</a></li>
+                        <li><a href="#">Event Planning</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="bi bi-geo-alt"></i> 123 Luxury Avenue, Beverly Hills, CA 90210</p>
+                        <p><i class="bi bi-telephone"></i> +1 (555) 123-4567</p>
+                        <p><i class="bi bi-envelope"></i> info@luxertohotel.com</p>
+                        <p><i class="bi bi-clock"></i> Open 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="mb-0">&copy; 2024 Hotel Luxerto. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+ 
+</body>
+</html>
