@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap");
 
-/* Root Variables */
+
 :root {
   --primary-color: #333;
   --secondary-color: #ffa500;
@@ -388,7 +388,7 @@ a {
   box-shadow: 0 5px 15px rgba(255, 165, 0, 0.3);
 }
 
-/* Fix Section Paddings for Mobile */
+
 @media (max-width: 768px) {
   .gallery-item {
     height: 250px;
@@ -467,7 +467,7 @@ a {
   transform: translateY(-2px);
 }
 
-/* Gallery Section Fixes */
+
 .gallery-section {
   padding: 100px 0;
   background-color: var(--light-gray);
@@ -682,7 +682,7 @@ a {
   color: #a0a0a0;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 991px) {
   .navbar {
     background-color: var(--white);
